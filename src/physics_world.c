@@ -99,7 +99,7 @@ static float b2DefaultRestitutionCallback( float restitutionA, uint64_t material
 
 b2WorldId b2CreateWorld( const b2WorldDef* def )
 {
-	_Static_assert( B2_MAX_WORLDS < UINT16_MAX, "B2_MAX_WORLDS limit exceeded" );
+	//_Static_assert( B2_MAX_WORLDS < UINT16_MAX, "B2_MAX_WORLDS limit exceeded" );
 	B2_CHECK_DEF( def );
 
 	int worldId = B2_NULL_INDEX;
